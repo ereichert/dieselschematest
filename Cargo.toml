@@ -1,0 +1,9 @@
+[package]
+name = "dieselschaema"
+version = "0.1.0"
+edition = "2018"
+
+[dependencies]
+diesel = { version = "1.4.5", features = ["postgres"] }
+dotenv = "0.15.0"
+serde = { version = "1.0.116", features = ["derive"] }
